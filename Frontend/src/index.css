@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+#root{
+  height: 100%;
+  width: 100%;
+}
+.notes{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-inline: 3rem;
+  padding-block: 2rem;
+}
+.note-form{
+  display: flex;
+  gap: 1rem;
+  padding-inline: 1rem;
+  padding-block: 2.5rem;
+}
+.note{
+  background-color: gray;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-width: 20rem;
+}
+.note .dl{
+  background-color: red;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  margin-top: 0.3rem;
+}
+.note .dl:active {
+  scale: 0.90;
+}
+.note .up{
+  background-color: blue;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  margin-top: 0.3rem;
+  margin-left: 8px;
+}
+.note .up:active {
+  scale: 0.90;
+}
